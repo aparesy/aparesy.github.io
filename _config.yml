@@ -24,7 +24,7 @@ title_separator          : "-"
 subtitle                 : "Programmation, maths and stuff !" # site tagline that appears below site title in masthead
 name                     : "Alexandre Paresy"
 description              : "Welcome to my personal page ! There's not much to see for now..."
-url                      : "https://paresya.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://aparesy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "aparesy" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/Lu_Zhishen_Water_Margin_2.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -129,7 +129,7 @@ author:
       url: "https://linkedin.com/in/alexandre-paresy-037771282"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/paresya"
+      url: "https://github.com/aparesy"
 
 # Site Footer
 footer:
@@ -139,7 +139,7 @@ footer:
       url: "mailto:alexandre.paresy@polytechnique.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/paresya"
+      url: "https://github.com/aparesy"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/alexandre-paresy-037771282"
