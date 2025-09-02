@@ -26,7 +26,7 @@ name                     : "Alexandre Paresy"
 description              : "Welcome to my personal page ! There's not much to see for now..."
 url                      : "https://aparesy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "aparesy" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "aparesy/aparesy.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/Lu_Zhishen_Water_Margin_2.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "android-chrome-512x512" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -302,7 +302,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: posts
       author_profile: true
       read_time: true
       share: true
