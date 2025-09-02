@@ -4,7 +4,6 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem "jekyll", group: :jekyll_plugins
-gem "minimal-mistakes-jekyll", group: :jekyll_plugins
 gem "webrick"
 gem "github-pages", group: :jekyll_plugins
 gem "fiddle"
