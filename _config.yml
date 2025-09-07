@@ -316,3 +316,12 @@ defaults:
       author_profile: true
       read_time: true
       show_time: true
+
+  - scope:
+      path: "/about/"
+      type: posts
+    values:
+      layout: posts
+      author_profile: true
+      read_time: true
+      show_time: true

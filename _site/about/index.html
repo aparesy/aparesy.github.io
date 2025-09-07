@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Welcome to my website ! - Apry’s page</title>
+<!-- begin _includes/seo.html --><title>About me - Apry’s page</title>
 <meta name="description" content="Welcome to my personal page ! There’s not much to see for now…">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_EN">
 <meta property="og:site_name" content="Apry&#39;s page">
-<meta property="og:title" content="Welcome to my website !">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="About me">
+<meta property="og:url" content="http://localhost:4000/about/">
 
 
   <meta property="og:description" content="Welcome to my personal page ! There’s not much to see for now…">
@@ -42,20 +42,10 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/about/">
 
 
 
-
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-    "name": "Alexandre Paresy",
-    "url": "http://localhost:4000/"
-}
-</script>
 
 
 
@@ -94,7 +84,7 @@
   </head>
 
 
-  <body class="layout--home" dir="ltr">
+  <body class="layout--single" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -155,6 +145,8 @@
 
     <div class="initial-content">
       
+
+
 
 
 
@@ -282,67 +274,62 @@
 
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="About me">
     
-      <h1 id="page-title" class="page__title">Welcome to my website !</h1>
     
     
 
-<h3 class="archive__subtitle">Recent Posts</h3>
-
-
-
-
-<div class="entries-list">
-  
-
-
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <div class="page__inner-wrap">
       
-        <a href="/TIPE/" rel="permalink">Tipe
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/about/" itemprop="url">About me
 </a>
-      
-    </h2>
-    
+          </h1>
+          
 
-  <p class="page__meta">
-    
 
-    
-
-    
-      
+        </header>
       
 
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+      <section class="page__content" itemprop="text">
         
-          less than 1 minute read
+        <p>Hi there ! I’m Alexandre, a second year student at Ecole Polytechnique. I am currently studying towards the goal of fulfilling my passion of maths and computer science. I also really enjoy music, badminton and playing video games. My aim with this website is to elaborate on these topics, and basically anything that interests me, as much as possible !</p>
+
+<h2 id="ecole-polytechnique">Ecole Polytechnique</h2>
+
+<p>Founded in 1794 by Napoleon, Ecole Polytechnique is France’s most renowned engineering school and its entrance exam is particularly infamous. Having kept its military status, its students automatically enroll in the French military and carry out a 6-month long <a href="https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/program-details/year-1-of-the-ingenieur-polytechnicien-program">military training and human formation period</a>. They also receive the mythical <a href="https://en.wikipedia.org/wiki/Grand_Uniform_of_the_%C3%89cole_Polytechnique">Grand Uniform</a> and get to participate in the 14th of July military parade.</p>
+
+<p>Nevertheless, Ecole Polytechnique particularly stands out for its scientific tradition, as it was home to many famous mathematicians and physicists, such as Mandelbrot, Carnot, Cauchy or Becquerel.</p>
+
+<h2 id="classe-préparatoire">Classe préparatoire</h2>
+
+<p>The french higher education system can be very confusing and the main reason for this is the <em>prépa</em> system, which is almost a Bachelor but also not at all a Bachelor. The main reason for choosing to do a <em>prépa</em> is that the best schools in France mainly accept students after they have cleared the entrance exams for their specific school which are so hard that students need to dedicate two years (or three if you repeat) after leaving high school to prepare for them.</p>
+
         
-      </span>
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
     
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
   </article>
-</div>
 
-</div>
-
-
-
-
-  </div>
+  
+  
 </div>
 
       
