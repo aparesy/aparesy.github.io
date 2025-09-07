@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://aparesy.github.io/TIPE/</loc>
+<lastmod>2025-09-07T22:00:01+00:00</lastmod>
+</url>
+<url>
 <loc>https://aparesy.github.io/cv/</loc>
+</url>
+<url>
+<loc>https://aparesy.github.io/about/</loc>
 </url>
 <url>
 <loc>https://aparesy.github.io/</loc>
 </url>
 <url>
+<loc>https://aparesy.github.io/posts/</loc>
+</url>
+<url>
 <loc>https://aparesy.github.io/assets/ResumeAlexandreParesy.pdf</loc>
-<lastmod>2025-09-07T21:13:55+00:00</lastmod>
+<lastmod>2025-09-07T22:15:02+00:00</lastmod>
 </url>
 </urlset>
