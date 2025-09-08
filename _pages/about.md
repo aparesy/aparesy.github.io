@@ -3,9 +3,14 @@ title: "About me"
 layout: single
 permalink: /about/
 author_profile: true
+toc: true
+toc_sticky: true
 ---
 
 Hi there ! I'm Alexandre, a second year student at Ecole Polytechnique. I am currently studying towards the goal of fulfilling my passion of maths and computer science. I also really enjoy music, badminton and playing video games. My aim with this website is to elaborate on these topics, and basically anything that interests me, as much as possible !
+
+
+
 
 ## Ecole Polytechnique
 
