@@ -32,13 +32,23 @@ I also like listening some japanese pop at times, as well as some video game mus
 
 As I explain [down below](#classe-préparatoire), the french education system makes you sacrifice 2 years of your life after leaving high school if you want to have a shot at the best scientific schools in the preparatory class limbo where you spend most of your time learning maths, physics and the dreaded chemistry. Thankfully, there are different tracks you can [choose between](https://www.onisep.fr/formation/apres-le-bac-les-etudes-superieures/les-principales-filieres-d-etudes-superieures/les-cpge-classes-preparatoires-aux-grandes-ecoles/les-prepas-scientifiques) and I managed to avoid chemistry by entering the MPI (Maths, Physics, Informatics) track, which just happened to be created 1 year prior ! Instead, the track applies a large focus on computer science and it was really enjoyable. We learn about pointers and memory allocation in C as well as functional programming in OCaml and a large part of the algorithms and theory you'd typically study in a BSc in CS. Unfortunately, there's no time for big projects but our second-year CS teacher still organized a competition in class to write the best AI for the [Oware game](https://en.wikipedia.org/wiki/Oware).
 
-That very positive experience with CS I had in *prépa* drove me to choose this specialization at Polytechnique, though I technically still have the option to do pure maths since it's a very generalist school (some people have a complete change of heart and start doing social sciences after having passed their competitive exams in maths !). During my first year at Polytechnique (apart from the 6 months in the Navy !), I mostly trained for the [ICPC](https://icpc.global/) (you can check out some of my code here : [link](https://github.com/aparesy/paresyCPcode)), but I also followed a nice course on Object-Oriented Programming in Java in which I coded a XVM (JVM but simpler !)compiler as well as a basic calculator with openjfx.
+That very positive experience with CS I had in *prépa* drove me to choose this specialization at Polytechnique, though I technically still have the option to do pure maths since it's a very generalist school (some people have a complete change of heart and start doing social sciences after having passed their competitive exams in maths !). During my first year at Polytechnique (apart from the 6 months in the Navy !), I mostly trained for the [ICPC](https://icpc.global/) (you can check out some of my code here : [link](https://github.com/aparesy/paresyCPcode)), but I also followed a nice course on Object-Oriented Programming in Java in which I coded a XVM (JVM but simpler !) compiler as well as a basic calculator with openJFX.
 
 During my second year, I'm planning on taking another Java course with [CTU](https://www.cvut.cz/en) as part of the [EuroTeQ program](https://euroteq.eurotech-universities.eu/), as well as several C++ and Python courses, a formal logic and an algorithm course at Polytechique.
 
 ## Ecole Polytechnique
 
 Founded in 1794 by Napoleon, Ecole Polytechnique is France's most renowned engineering school and its entrance exam is particularly infamous. Having kept its military status, its students automatically enroll in the French military and carry out a 6-month long [military training and human formation period](https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/program-details/year-1-of-the-ingenieur-polytechnicien-program). They also receive the mythical [Grand Uniform](https://en.wikipedia.org/wiki/Grand_Uniform_of_the_%C3%89cole_Polytechnique) and get to participate in the 14th of July military parade.
+
+<div style="text-align: center;">
+  <img src="/assets/960px-Le_Petit_Journal_Uniformes_Ecole_polytechnique_1894.png" alt="The Polytechnician Uniforms throughout the years, 1894 drawing" style="max-width: 400px; width: 100%; height: auto; display: block; margin: 0 auto;">
+  <div style="font-size: 0.95em; color: #666; margin-top: 0.5em;">
+    The Polytechnician Uniforms throughout the years, 1894 drawing
+  </div>
+</div>
+
+
+<br>
 
 Nevertheless, Ecole Polytechnique particularly stands out for its scientific tradition, as it was home to many famous mathematicians and physicists, such as Mandelbrot, Carnot, Cauchy or Becquerel.
 

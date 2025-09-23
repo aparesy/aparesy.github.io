@@ -13,4 +13,4 @@ Disclaimer regarding my current GPA (as of September 2025) : it is only calculat
 
 Nonetheless, it is official and I would be glad to send you a transcript if needed ; just shoot me an email !
 
-I can also provide you with some of my grade transcripts from my preparatory class (*Louis-le-Grand*) or the competitive exams I took to get accepted into Polytechnique if the *prépa* system caught your interest ! 
+I can also provide you with some of my grade transcripts from my preparatory class (*Louis-le-Grand*) or the competitive exams I took to get accepted into Polytechnique ! 
