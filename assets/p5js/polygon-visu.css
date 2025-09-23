@@ -1,0 +1,60 @@
+body {
+  background: #f8f9fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0001;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  margin: 5px 5px 15px 0;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1565c0;
+}
+.step-visualizer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+  gap: 10px;
+}
+.step-cell {
+  background: #e3eafc;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 1em;
+  min-width: 180px;
+  text-align: center;
+  border: 2px solid #e3eafc;
+  transition: border 0.2s, background 0.2s;
+}
+.step-cell.active {
+  background: #ffe066;
+  border: 2px solid #ffd700;
+  font-weight: bold;
+}
+canvas {
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px #0002;
+}
