@@ -23,6 +23,11 @@ I'm a violin player, so of course I have a soft spot for classical music. Beside
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hBlNa9_RCNw?si=IVA-fn6IznynXamJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+I also like listening some japanese pop at times, as well as some video game music (Skyrim or Celeste OST for example). Here's a pearl I recently found that checks all three criteria (orchestral, japanese and video game) :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ksh4KpuZLJk?si=kE8CRCgyg2QGuE-l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## On computer science
 
 As I explain [down below](#classe-préparatoire), the french education system makes you sacrifice 2 years of your life after leaving high school if you want to have a shot at the best scientific schools in the preparatory class limbo where you spend most of your time learning maths, physics and the dreaded chemistry. Thankfully, there are different tracks you can [choose between](https://www.onisep.fr/formation/apres-le-bac-les-etudes-superieures/les-principales-filieres-d-etudes-superieures/les-cpge-classes-preparatoires-aux-grandes-ecoles/les-prepas-scientifiques) and I managed to avoid chemistry by entering the MPI (Maths, Physics, Informatics) track, which just happened to be created 1 year prior ! Instead, the track applies a large focus on computer science and it was really enjoyable. We learn about pointers and memory allocation in C as well as functional programming in OCaml and a large part of the algorithms and theory you'd typically study in a BSc in CS. Unfortunately, there's no time for big projects but our second-year CS teacher still organized a competition in class to write the best AI for the [Oware game](https://en.wikipedia.org/wiki/Oware).
