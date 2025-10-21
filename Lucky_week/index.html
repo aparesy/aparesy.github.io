@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Beautiful algorithms - Apry’s page</title>
-<meta name="description" content="Introduction">
+<!-- begin _includes/seo.html --><title>Lucky week - Apry’s page</title>
+<meta name="description" content="I spent a lot of time in the past 4 months thinking about competitive programming, half of which being spent lying down staring at the ceiling while contemplating and the other half actually practicing, but it seems that this practice method actually bear fruit last week through some events. Since the whole week was actually pretty memorable for me, I want to note down the main things that happened in this period.">
 
 
   <meta name="author" content="Alexandre Paresy">
@@ -23,11 +23,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_EN">
 <meta property="og:site_name" content="Apry&#39;s page">
-<meta property="og:title" content="Beautiful algorithms">
-<meta property="og:url" content="https://aparesy.github.io/BeautifulAlgos/">
+<meta property="og:title" content="Lucky week">
+<meta property="og:url" content="https://aparesy.github.io/Lucky_week/">
 
 
-  <meta property="og:description" content="Introduction">
+  <meta property="og:description" content="I spent a lot of time in the past 4 months thinking about competitive programming, half of which being spent lying down staring at the ceiling while contemplating and the other half actually practicing, but it seems that this practice method actually bear fruit last week through some events. Since the whole week was actually pretty memorable for me, I want to note down the main things that happened in this period.">
 
 
 
@@ -46,7 +46,7 @@
   
 
 
-<link rel="canonical" href="https://aparesy.github.io/BeautifulAlgos/">
+<link rel="canonical" href="https://aparesy.github.io/Lucky_week/">
 
 
 
@@ -279,8 +279,8 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Beautiful algorithms">
-    <meta itemprop="description" content="Introduction">
+    <meta itemprop="headline" content="Lucky week">
+    <meta itemprop="description" content="I spent a lot of time in the past 4 months thinking about competitive programming, half of which being spent lying down staring at the ceiling while contemplating and the other half actually practicing, but it seems that this practice method actually bear fruit last week through some events. Since the whole week was actually pretty memorable for me, I want to note down the main things that happened in this period.">
     <meta itemprop="datePublished" content="2025-09-22T22:00:01+00:00">
     
 
@@ -288,7 +288,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://aparesy.github.io/BeautifulAlgos/" itemprop="url">Beautiful algorithms
+            <a href="https://aparesy.github.io/Lucky_week/" itemprop="url">Lucky week
 </a>
           </h1>
           
@@ -305,7 +305,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          3 minute read
         
       </span>
     
@@ -320,25 +320,42 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#introduction">Introduction</a></li><li><a href="#nwerc-2009-problem-i--simple-polygon">NWERC 2009 Problem I : Simple Polygon</a></li></ul>
+              <ul class="toc__menu"><li><a href="#a-first-success">A first success</a></li><li><a href="#swerc">SWERC</a></li><li><a href="#meta-hacker-cup">Meta hacker cup</a></li><li><a href="#codeforces">Codeforces</a></li></ul>
             </nav>
           </aside>
         
-        <h2 id="introduction">Introduction</h2>
+        <p>I spent a lot of time in the past 4 months thinking about competitive programming, half of which being spent lying down staring at the ceiling while contemplating and the other half actually practicing, but it seems that this practice method actually bear fruit last week through some events. Since the whole week was actually pretty memorable for me, I want to note down the main things that happened in this period.</p>
 
-<p>Not all algorithms are beautiful. I discovered this theorem while practicing on <a href="codeforces.com">codeforces</a>, which has a surprisingly large amount of problems involving one or multiple array and a very convoluted operation ; the perfect recipe for racking your brains during 30 minutes before finding a not-so-satisfying (and very forgettable) solution. On the other end of the spectrum, I found some ICPC problems very interesting which is why I wanted to create visualations of some of them. That said, this might take some time so this page will probably get bigger as time goes on.</p>
+<h2 id="a-first-success">A first success</h2>
 
-<p>This idea of algorithm visualization is inspired by the <a href="visualgo.net">VisuAlgo website</a>, which I definitely recommend you go check out !</p>
+<p>On Tuesday, I participated in the <a href="https://www.linkedin.com/posts/stockly_get-ready-the-stockly-coding-competition-activity-7379068201214681088-8g1P/">Stockly student competition challenge</a> (thanks to K. sending the link in our Discord), which I assumed was basically a Codeforces round, but in person (and also free pizza, the surefire way for companies to lure in hungry students). We went together with the whole squad (M., D. , E. and L.) adn took the RER all the way from Polytechnique to the center of Paris. The venue, inside the company headquarters in a Hausmannian building was actually beautiful and unfortunately they said the pizza would come only after the end of the challenge at 11pm so at this point I figured I might as well focus fully on coding.</p>
 
-<h2 id="nwerc-2009-problem-i--simple-polygon">NWERC 2009 Problem I : Simple Polygon</h2>
+<p>For context, since it was a small competition (only ~40 people came), the problemsetters weren’t exactly professionals, so it seems (though I might be wrong) that they just picked 9 random problems on Kattis by order of difficulty ; this will come into play later. The start of the round actually went pretty well for me since I solved the first 4 problems without spending too much time debugging (miracle !), but the thing is, D and E could actually be reduced to minimal matching and 2SAT respectively so I just directly copied the codes from KACTL (snippets were allowed surprisingly). Then, I spent way too much time on problem F which seemed trivial but I just couldn’t understand the testcases so in the end I just skipped to problem G. G was actually a pretty easy geometry problem but the weird thing is that it needed one to guess the correct epsilon in order to pass all testcases and so I ended up winning by guessing the epsilon in question. It was really a clutch at the last minute as you can see from the <a href="https://open.kattis.com/contests/bnjz55/standings">leaderboard</a> :</p>
 
-<object data="/assets/nwerc2009-19.pdf" width="1000" height="1000" type="application/pdf"></object>
+<div style="text-align: center;">
+  <img src="/assets/stocklyRanking.png" alt="Leaderboard" style="max-width: 400px; width: 100%; height: auto; display: block; margin: 0 auto;" />
+  <div style="font-size: 0.95em; color: #666; margin-top: 0.5em;">
+    way too close for comfort
+  </div>
+</div>
 
-<p>I wanted to start with a very basic line sweep algorithm. The solution is to start from a corner (I personally go to the leftmost point and then choose the lowest one if there are multiple) and then sweep a line counterclockwise starting from the vertical line going through this corner. Each time the line hits a point, we add it to the polygon and continue until we have added all points. If you hit multiple points at the same time, you need to add the closest one first except for the points on the very last line. This construction guarantees that no two edges of the polygon intersect since every new edge will be located in a yet untouched circle sector.</p>
+<p>At the end, I got almost no pizza since I spent way too much time processing all of this and discussing with other people but since I got first place, I got 250 euros which is enough to feed myself for next 2 months so I guess that evened out the starving on that night (just kidding, I’m very grateful to Stockly for organizing that event).</p>
 
-<p>Note that this algorithm doesn’t work if you choose a point in the middle at first since the last property doesn’t hold if the two points have an angle of more than 180° with the center.</p>
+<h2 id="swerc">SWERC</h2>
 
-<p><a href="/assets/p5js/polygon-visu.html">Try the interactive visalizer yourself !</a></p>
+<p>One of the reasons why I went to the Stockly competition was to train for XCPC, the ICPC SWERC (International Collegiate Programming Competition SouthWestern Europe Regional Championship) qualifiers internal to Ecole Polytechnique where only the best 3 teams are selected. I was pretty nervous because the Bachelors at Ecole Plytechnique are a lot stronger than the engineers since some of them come from countries (e.g. Romania, Russia…) which put a lot more emphasis on olympiads than France. The stockly event gave me some confidence but I also knew that things would be differrent since the problems would be a lot harder.</p>
+
+<p>We ended up grasping the third place at the last second thanks to L. successfully implementing a really hard problem with a solution that was supposed to go over the time limit according to the coach. I was so glad but it was also sad that another team got kicked out of top 3 at the last second ; unfortunately school-internal qualifiers are cruel. However, there’s not much time now to think about all of this since the two other teams that qualified are very strong and we actually need to beat them at SWERC if we want to qualify for ICPC (beating team 1 is a much harder task than getting a medal at SWERC :  last year teams 1 and 2 from Polytechnique ranked 1st and 3rd respectively).</p>
+
+<h2 id="meta-hacker-cup">Meta hacker cup</h2>
+
+<p>The problems aren’t properly judged yet (it’s been 3 days) but according to the current rankings I scored in the top 1000 which is largely enough to advance to round 2, where the target is top 500 for round 3. Hopefully I’ll spend a bit less time debugging and achieving this.</p>
+
+<h2 id="codeforces">Codeforces</h2>
+
+<p>I got expert in the round that took place just after XCPC !!! My name is now in dark blue which is favorite color !!</p>
+
+<p>Anyways, that’s all for this week, I’ll go back to the grind now</p>
 
         
       </section>
@@ -357,19 +374,19 @@
       <section class="page__share">
   <h4 class="page__share-title">Share on</h4>
 
-  <a href="https://x.com/intent/tweet?text=Beautiful+algorithms%20https%3A%2F%2Faparesy.github.io%2FBeautifulAlgos%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+  <a href="https://x.com/intent/tweet?text=Lucky+week%20https%3A%2F%2Faparesy.github.io%2FLucky_week%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
     <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
   </a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faparesy.github.io%2FBeautifulAlgos%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faparesy.github.io%2FLucky_week%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
     <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
   </a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://aparesy.github.io/BeautifulAlgos/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://aparesy.github.io/Lucky_week/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
     <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
   </a>
 
-  <a href="https://bsky.app/intent/compose?text=Beautiful+algorithms%20https%3A%2F%2Faparesy.github.io%2FBeautifulAlgos%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+  <a href="https://bsky.app/intent/compose?text=Lucky+week%20https%3A%2F%2Faparesy.github.io%2FLucky_week%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
     <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
   </a>
 </section>
@@ -378,10 +395,10 @@
       
   <nav class="pagination">
     
-      <a href="/TIPE/" class="pagination--pager" title="Tipe">Previous</a>
+      <a href="/BeautifulAlgos/" class="pagination--pager" title="Beautiful algorithms">Previous</a>
     
     
-      <a href="/Lucky_week/" class="pagination--pager" title="Lucky week">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -413,7 +430,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/Lucky_week/" rel="permalink">Lucky week
+        <a href="/BeautifulAlgos/" rel="permalink">Beautiful algorithms
 </a>
       
     </h2>
@@ -431,14 +448,16 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          3 minute read
+          1 minute read
         
       </span>
     
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">I spent a lot of time in the past 4 months thinking about competitive programming, half of which being spent lying down staring at the ceiling while contempl...</p>
+    <p class="archive__item-excerpt" itemprop="description">Introduction
+
+</p>
   </article>
 </div>
 
