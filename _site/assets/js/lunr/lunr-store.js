@@ -10,4 +10,10 @@ var store = [{
         "tags": [],
         "url": "/BeautifulAlgos/",
         "teaser": "/assets/Lu_Zhishen_Water_Margin_2.jpg"
+      },{
+        "title": "Lucky week",
+        "excerpt":"I spent a lot of time in the past 4 months thinking about competitive programming, half of which being spent lying down staring at the ceiling while contemplating and the other half actually practicing, but it seems that this practice method actually bear fruit last week through some events. Since...","categories": [],
+        "tags": [],
+        "url": "/Lucky_week/",
+        "teaser": "/assets/Lu_Zhishen_Water_Margin_2.jpg"
       }]

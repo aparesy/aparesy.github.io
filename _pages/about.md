@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-Hi there ! I'm Alexandre, a second year student at Ecole Polytechnique. I've always been a fan of problem-solving in various forms, for example by solving sudokus in the train to elementary school or by participating in many maths events and competitions in high school. Currently, I particularly enjoy computer science which takes up most of my courses as well as competitive programming : I'm currently trying to qualify for [ICPC SWERC](http://www.swerc.eu) ! 
+Hi there ! I'm Alexandre, a second year student at Ecole Polytechnique. I've always been a fan of problem-solving in various forms, for example by solving sudokus in the train to elementary school or by participating in many maths events and competitions in high school. Currently, I particularly enjoy computer science which takes up most of my courses as well as competitive programming : I'm currently trying to qualify for [ICPC SWERC](http://www.swerc.eu) (update (17/10): I qualified! ) 
 
 I also really enjoy music as a violin player, badminton and playing video games. My aim with this website is to elaborate on these topics, and basically anything that interests me, as much as possible !
 
