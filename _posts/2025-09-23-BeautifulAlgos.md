@@ -21,4 +21,4 @@ I wanted to start with a very basic line sweep algorithm. The solution is to sta
 
 Note that this algorithm doesn't work if you choose a point in the middle at first since the last property doesn't hold if the two points have an angle of more than 180° with the center.
 
-[Try the interactive visalizer yourself !](/assets/p5js/polygon-visu.html)
+The visualizer will be available soon
