@@ -121,12 +121,12 @@ author:
   location         : "Palaiseau, France"
   email            : alexandre.paresy@polytechnique.edu
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:alexandre.paresy@polytechnique.edu"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:alexandre.paresy@polytechnique.edu"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/alexandre-paresy-037771282"
+      url: "https://linkedin.com/in/alexandre-paresy/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aparesy"
