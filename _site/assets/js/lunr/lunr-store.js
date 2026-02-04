@@ -16,4 +16,10 @@ var store = [{
         "tags": [],
         "url": "/Lucky_week/",
         "teaser": "/assets/Lu_Zhishen_Water_Margin_2.jpg"
+      },{
+        "title": "On machine learning to teach",
+        "excerpt":"With a group of friends and a researcher from INRIA, we are currently working on a year-long project to build tools in order to enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope...","categories": [],
+        "tags": [],
+        "url": "/MachineTeaching/",
+        "teaser": "/assets/Lu_Zhishen_Water_Margin_2.jpg"
       }]
