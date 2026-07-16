@@ -7,23 +7,23 @@ toc: true
 toc_sticky: true
 ---
 
-Hi there ! I'm Alexandre, a second year student at Ecole Polytechnique. I've always been a fan of problem-solving in various forms, for example by solving sudokus in the train to elementary school or by participating in many maths events and competitions in high school. Currently, I particularly enjoy computer science which takes up most of my courses as well as competitive programming : I really like participating in contests on codeforces as well as training for ICPC.
+Hi there ! I'm Alexandre, a third-year student at Ecole Polytechnique. I've always been a fan of problem-solving in various forms, for example by solving sudokus in the train to elementary school or by participating in many maths events and competitions in high school. Currently, I particularly enjoy computer science, in particular the areas of algorithms and machine learning.
 
 ## On maths
 
-One of the places where I've been to the most during high school is Bodo Lass' [discrete mathematics clubs](https://math.univ-lyon1.fr/~lass/club.html), in which I've been a member for 7 years. It's the biggest math club in France for young students who want to prepare competitions (for example the [Coupe Animaths](https://maths-olympiques.fr/?cat=16), France's olympiad math selection test) or just discover mathematics besides their regular school curriculum (and I just happened to live near it !). I used to particular enjoy combinatorics and number theory, which are both barely mentioned topics in high school. This also gave me confidence to enter some olympiads in high school !
+One of the places where I've been to the most in my teenage years is Bodo Lass' [discrete mathematics clubs](https://math.univ-lyon1.fr/~lass/club.html), in which I've been a member for 7 years. It's the biggest math club in France for young students who want to prepare competitions (for example the [Coupe Animaths](https://maths-olympiques.fr/?cat=16), France's olympiad math selection test), or just discover mathematics besides their regular school curriculum. I used to particular enjoy combinatorics and number theory, which are both barely mentioned topics in high school. This also gave me confidence to enter some olympiads in high school!
 
-The club also made me discover the [Mathraining](https://mathraining.be) website, which was originally targeted at belgian olympiad students, but became widespread over french-speaking students after some years. The site consists of a few topics which cover most of olympiad maths with complete courses and quizzes, as well as longer problems to which you can submit answers in LaTeX that will be corrected by (very patient) volunteers. It might seem very basic, but each problem gives you points and for a high schooler who just needed an excuse to skip more tedious tasks (such as studying for one's philosophy exam) in order to spend his days solving math problems, it can quickly become very addictive ! However, at the end of high schools, I still didn't get as many points as some of my peers, so I was excited to do more maths in *prépa*.
+Afterwards, like most French high school students who have an interest in maths, I entered the French *Classe Préparatoire* system, mostly clueless about what to expect. I learned that real mathematics are built step by step in a very formal way, which was not obvious to me as I just liked to mess around a bunch whenever I tackled a math problem in very informal directions. I also learned that doing well in math exams (not olympiads) is mainly about getting the correct way to focus one's and memorizing the "feeling" of many proofs. 
+
+As of now, I lean more towards computer science, but maths in computer science is really one of my favorite things.
 
 ## On music
 
-I'm a violin player, so of course I have a soft spot for classical music. Besides having played in my high school orchestra, I'm also a member of the [Saclay plateau orchestra](orchestres-plateau-saclay.fr). Playing in an orchestra in front of a big audience is definitely a unique experience, and it's a lot more stressful than what it looks like from a spectator's point of view (or at least that's how I feel). Recently, one of my favorite pieces has been Bizet's Arlésienne : 
+I'm a violin player, so of course I have a soft spot for classical music. Besides having played in my high school orchestra, I also used to be a member of the [Saclay plateau orchestra](orchestres-plateau-saclay.fr). Playing in an orchestra in front of a big audience is definitely a unique experience, and it's a lot more stressful than what it looks like from a spectator's point of view (or at least that's how I feel). Recently, one of my favorite pieces has been Bizet's Arlésienne : 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hBlNa9_RCNw?si=IVA-fn6IznynXamJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-I also like listening some japanese pop at times, as well as some video game music (Skyrim or Celeste OST for example). Here's a pearl I recently found that checks all three criteria (orchestral, japanese and video game) :
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ksh4KpuZLJk?si=kE8CRCgyg2QGuE-l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## On computer science
