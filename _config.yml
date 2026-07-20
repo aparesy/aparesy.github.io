@@ -117,7 +117,7 @@ analytics:
 author:
   name             : "Alexandre Paresy"
   avatar           : /assets/maTete.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Second year student at <a href='https://www.polytechnique.edu/'>Ecole Polytechnique</a>"
+  bio              : "Third-year student at <a href='https://www.polytechnique.edu/'>Ecole Polytechnique</a>"
   location         : "Palaiseau, France"
   email            : alexandre.paresy@polytechnique.edu
   links:
