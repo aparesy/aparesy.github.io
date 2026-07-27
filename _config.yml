@@ -17,13 +17,13 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-EN"
+locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Apry's page"
 title_separator          : "-"
 subtitle                 : "Programmation, maths and stuff !" # site tagline that appears below site title in masthead
 name                     : "Alexandre Paresy"
-description              : "Welcome to my personal page ! There's not much to see for now..."
+description              : "Personal page of Alexandre Paresy: computer science, mathematics and competitive programming."
 url                      : "https://aparesy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aparesy/aparesy.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
