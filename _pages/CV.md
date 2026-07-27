@@ -3,7 +3,7 @@ title: "CV and related informations"
 layout: single
 permalink: /cv/
 header:
-    image: assets/PANORAMA (1).jpg 
+    image: assets/paris_panorama.jpg
 author_profile: true
 ---
 
