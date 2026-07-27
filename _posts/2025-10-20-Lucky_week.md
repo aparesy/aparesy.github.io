@@ -5,6 +5,8 @@ date: 2025-10-20 00:00:01 +02:00
 author_profile: true
 toc: true
 toc_sticky: true
+header:
+    teaser: assets/sorbonne.jpg
 ---
 
 I spent a lot of time in the past 4 months thinking about competitive programming, half of which was spent lying down staring at the ceiling while contemplating and the other half actually practicing, but it seems that this practice method actually bore fruit last week through some events. Since the whole week was actually pretty memorable for me, I want to note down the main things that happened in this period.

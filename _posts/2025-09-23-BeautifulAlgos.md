@@ -5,6 +5,8 @@ date: 2025-09-23 00:00:01 +02:00
 author_profile: true
 toc: true
 toc_sticky: true
+header:
+    teaser: assets/stylish_algorithm.jpg
 ---
 
 ## Introduction
