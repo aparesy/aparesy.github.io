@@ -328,9 +328,7 @@
 
 <h2 id="nwerc-2009-problem-i-simple-polygon">NWERC 2009 Problem I: Simple Polygon</h2>
 
-<object data="/assets/nwerc2009-19.pdf" type="application/pdf" style="width: 100%; max-width: 1000px; height: 1000px;">
-  <p>Your browser cannot display the PDF inline. You can <a href="/assets/nwerc2009-19.pdf">download it here</a>.</p>
-</object>
+<object data="/assets/nwerc2009-19.pdf" width="1000" height="1000" type="application/pdf"></object>
 
 <p>I wanted to start with a very basic line sweep algorithm. The solution is to start from a corner (I personally go to the leftmost point and then choose the lowest one if there are multiple) and then sweep a line counterclockwise starting from the vertical line going through this corner. Each time the line hits a point, we add it to the polygon and continue until we have added all points. If you hit multiple points at the same time, you need to add the closest one first except for the points on the very last line. This construction guarantees that no two edges of the polygon intersect since every new edge will be located in a yet untouched circle sector.</p>
 
