@@ -19,7 +19,7 @@ As of now, I lean more towards computer science, but maths in computer science i
 
 ## On music
 
-I'm a violin player, so of course I have a soft spot for classical music. Besides having played in my high school orchestra, I also used to be a member of the [Saclay plateau orchestra](orchestres-plateau-saclay.fr). Playing in an orchestra in front of a big audience is definitely a unique experience, and it's a lot more stressful than what it looks like from a spectator's point of view (or at least that's how I feel). Recently, one of my favorite pieces has been Bizet's Arlésienne:
+I'm a violin player, so of course I have a soft spot for classical music. Besides having played in my high school orchestra, I also used to be a member of the [Saclay plateau orchestra](https://orchestres-plateau-saclay.fr). Playing in an orchestra in front of a big audience is definitely a unique experience, and it's a lot more stressful than what it looks like from a spectator's point of view (or at least that's how I feel). Recently, one of my favorite pieces has been Bizet's Arlésienne:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hBlNa9_RCNw?si=IVA-fn6IznynXamJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
