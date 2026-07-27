@@ -9,17 +9,17 @@ var store = [{
         "excerpt":"Introduction Not all algorithms are beautiful. I discovered this theorem while practicing on Codeforces, which has a surprisingly large number of problems involving one or multiple arrays and a very convoluted operation; the perfect recipe for racking your brains for 30 minutes before finding a not-so-satisfying (and very forgettable) solution....","categories": [],
         "tags": [],
         "url": "/BeautifulAlgos/",
-        "teaser": "/assets/Lu_Zhishen_Water_Margin_2.jpg"
+        "teaser": "/assets/stylish_algorithm.jpg"
       },{
         "title": "Lucky week",
         "excerpt":"I spent a lot of time in the past 4 months thinking about competitive programming, half of which was spent lying down staring at the ceiling while contemplating and the other half actually practicing, but it seems that this practice method actually bore fruit last week through some events. Since...","categories": [],
         "tags": [],
         "url": "/Lucky_week/",
-        "teaser": "/assets/Lu_Zhishen_Water_Margin_2.jpg"
+        "teaser": "/assets/sorbonne.jpg"
       },{
         "title": "On machine learning to teach",
         "excerpt":"With a group of friends and a researcher from INRIA, we are currently working on a year-long project to build tools in order to enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope...","categories": [],
         "tags": [],
         "url": "/MachineTeaching/",
-        "teaser": "/assets/Lu_Zhishen_Water_Margin_2.jpg"
+        "teaser": "/assets/design_ml.jpg"
       }]
