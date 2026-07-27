@@ -7,9 +7,7 @@ header:
 author_profile: true
 ---
 
-Here's my resume : [View or download my resume (PDF)](/assets/ResumeAlexandreParesy.pdf)
-
-(French version : [CV en français](/assets/ResumeFrancais.pdf))
+Here's my resume : [View or download my resume (PDF)](/assets/resume.pdf)
 
 Disclaimer regarding my current GPA (as of September 2025) : it is only calculated based on the classes I took from April 2025 to July 2025 (during the *Tronc Commun* period) as the first 6 months of the Ecole Polytechnique curriculum are dedicated to human formation and military training.
 
