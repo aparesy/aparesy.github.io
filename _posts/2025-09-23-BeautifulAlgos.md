@@ -13,7 +13,7 @@ header:
 
 Not all algorithms are beautiful. I discovered this theorem while practicing on [Codeforces](https://codeforces.com), which has a surprisingly large number of problems involving one or multiple arrays and a very convoluted operation; the perfect recipe for racking your brains for 30 minutes before finding a not-so-satisfying (and very forgettable) solution. On the other end of the spectrum, I found some ICPC problems very interesting, which is why I wanted to create visualizations of some of them. That said, this might take some time so this page will probably get bigger as time goes on.
 
-This idea of algorithm visualization is inspired by the [VisuAlgo website](https://visualgo.net), which I definitely recommend you go check out! I want to do something similar so I'm working on a visualizer for the problems here.
+This idea of algorithm visualization is inspired by the [VisuAlgo website](https://visualgo.net), which I definitely recommend you go check out! I want to do something similar, so I built [my own visualizer](/visualizer/): you can generate point sets (random, circles, grids, clusters) and watch the algorithms below run step by step.
 
 ## NWERC 2009 Problem I: Simple Polygon
 
@@ -24,3 +24,5 @@ I wanted to start with a very basic line sweep algorithm. The solution is to sta
 Note that this algorithm doesn't work if you choose a point in the middle at first since the last property doesn't hold if the two points have an angle of more than 180° with the center.
 
 Note also that this works very similarly to the convex hull algorithm where you sweep from left to right, progressively remove points and add points from your current hull, and then this creates your upper hull so you just sweep back from right to left to get the lower hull.
+
+You can watch both algorithms in action on the visualizer: [Simple Polygon](/visualizer/simple-polygon.html) and [Convex Hull](/visualizer/convex-hull.html)!
