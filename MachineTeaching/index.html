@@ -11,7 +11,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>On machine learning to teach - Apry’s page</title>
-<meta name="description" content="With a group of friends and a researcher from INRIA, we are currently working on a year-long project to build tools in order to enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope of programming (that’s where the largest datasets are) but really our idea is to make something that can be generalized to all fields.">
+<meta name="description" content="With a group of friends and a researcher from INRIA, we worked on a year-long project to build tools that enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope of programming (that’s where the largest datasets are) but really our idea is to make something that can be generalized to all fields.">
 
 
   <meta name="author" content="Alexandre Paresy">
@@ -27,7 +27,7 @@
 <meta property="og:url" content="https://aparesy.github.io/MachineTeaching/">
 
 
-  <meta property="og:description" content="With a group of friends and a researcher from INRIA, we are currently working on a year-long project to build tools in order to enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope of programming (that’s where the largest datasets are) but really our idea is to make something that can be generalized to all fields.">
+  <meta property="og:description" content="With a group of friends and a researcher from INRIA, we worked on a year-long project to build tools that enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope of programming (that’s where the largest datasets are) but really our idea is to make something that can be generalized to all fields.">
 
 
 
@@ -296,7 +296,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="On machine learning to teach">
-    <meta itemprop="description" content="With a group of friends and a researcher from INRIA, we are currently working on a year-long project to build tools in order to enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope of programming (that’s where the largest datasets are) but really our idea is to make something that can be generalized to all fields.">
+    <meta itemprop="description" content="With a group of friends and a researcher from INRIA, we worked on a year-long project to build tools that enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope of programming (that’s where the largest datasets are) but really our idea is to make something that can be generalized to all fields.">
     <meta itemprop="datePublished" content="2026-02-03T22:00:01+00:00">
     
 
@@ -321,7 +321,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          2 minute read
         
       </span>
     
@@ -336,11 +336,11 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#first-paper">First paper</a></li><li><a href="#on-tabpfn">On TabPFN</a></li></ul>
+              <ul class="toc__menu"><li><a href="#first-paper">First paper</a></li><li><a href="#on-tfms">On TFMs</a></li></ul>
             </nav>
           </aside>
         
-        <p>With a group of friends and a researcher from INRIA, we are currently working on a year-long project to build tools in order to enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope of programming (that’s where the largest datasets are) but really our idea is to make something that can be generalized to all fields.</p>
+        <p>With a group of friends and a researcher from INRIA, we worked on a year-long project to build tools that enable intelligent teaching. The official title for the project is “An intelligent assistant for teaching programming” because we decided to work in particular in the scope of programming (that’s where the largest datasets are) but really our idea is to make something that can be generalized to all fields.</p>
 
 <h2 id="first-paper">First paper</h2>
 
@@ -350,13 +350,13 @@
 
 <p><strong>Update (July 2026):</strong> the paper was accepted at AIED 2026, and we presented it at the onsite poster session! You can <a href="https://arxiv.org/abs/2602.06542">read it on arXiv</a>.</p>
 
-<h2 id="on-tabpfn">On TabPFN</h2>
+<h2 id="on-tfms">On TFMs</h2>
 
-<p>Since TabPFN really is a big black box (it was trained for days on synthetic data), I have experimented with my own version using <a href="https://github.com/automl/nanoTabPFN">nanoTabPFN</a> which I reimplemented by hand.</p>
+<p>One interesting thing is that TabPFN doesn’t just output a single number for each prediction, it approximates a full Bayesian posterior predictive distribution. For classification this just means a probability for each class, but for regression this is a lot more interesting: instead of predicting one value, the model outputs a whole distribution over possible values, represented internally as a piecewise-constant function over a range of buckets. This lets it express things a plain point estimate cannot, like a prediction being genuinely uncertain, or even multi-modal, if the training data suggests several very different outcomes are plausible given the same input. In our case, this maps nicely onto knowledge tracing, since predicting whether a student solves a problem is inherently a probability, not a hard yes or no, and having the model reason in terms of a distribution from the start rather than bolting on a probability estimate afterward feels like the right way to do it.</p>
 
-<p><img src="/assets/tabpfn.png" alt="Diagram in the nanoTabPFN article" /></p>
+<p><img src="/assets/tabpfn.png" alt="Diagram of a tabular foundation model processing a dataset in-context" /></p>
 
-<p>(To be continued)</p>
+<p>In our paper, we tried using both TabPFN and TabICL, but it seems like these models are on the rise so it is probable that moreof them will appear soon.</p>
 
         
       </section>
