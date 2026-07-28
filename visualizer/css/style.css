@@ -1,0 +1,52 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #f6f7fb;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #222;
+}
+main {
+  max-width: 860px;
+  margin: 24px auto;
+  padding: 20px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+h1 { text-align: center; font-size: 1.5rem; }
+.nav { text-align: center; font-size: 0.95rem; }
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e0e2ea;
+  border-radius: 8px;
+  background: #fcfcfe;
+}
+#caption {
+  text-align: center;
+  min-height: 1.4em;
+  font-style: italic;
+  color: #444;
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+}
+.controls button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.controls button:hover { background: #1565c0; }
+.controls input[type="number"] { width: 4.5em; }
+.algo-list { line-height: 1.9; font-size: 1.1rem; }
