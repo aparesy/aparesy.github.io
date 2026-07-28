@@ -23,6 +23,10 @@ I wanted to start with a very basic line sweep algorithm. The solution is to sta
 
 Note that this algorithm doesn't work if you choose a point in the middle at first since the last property doesn't hold if the two points have an angle of more than 180° with the center.
 
-Note also that this works very similarly to the convex hull algorithm where you sweep from left to right, progressively remove points and add points from your current hull, and then this creates your upper hull so you just sweep back from right to left to get the lower hull.
+You can watch this algorithm in action on its [visualizer page](/visualizer/simple-polygon.html)!
 
-You can watch both algorithms in action on the visualizer: [Simple Polygon](/visualizer/simple-polygon.html) and [Convex Hull](/visualizer/convex-hull.html)!
+## Convex Hull
+
+The construction above works very similarly to the monotone chain convex hull algorithm: you sweep from left to right, adding each point to your current hull and popping the points that would create a bad turn, which builds your upper hull; then you sweep back from right to left to get the lower hull. This one also has its own [visualizer page](/visualizer/convex-hull.html)!
+
+I also got to study convex hulls more seriously in a second year course at École Polytechnique: with a friend, we implemented two convex hull algorithms in C++, compared their performance, and built some visualizations for them with SFML and matplotlib. The code is public on my GitHub if you are curious: [projectComputGeo](https://github.com/aparesy/projectComputGeo).
